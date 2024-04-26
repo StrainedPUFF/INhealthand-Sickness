@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 0%;
+    background:rgb(236, 119, 10);
+}
+
+.header{
+    background-color: rgb(7, 224, 105);
+    font-family: "Megrim", cursive;
+    font-size: small;
+    color: rgb(14, 110, 219);
+    padding: 22px;
+    text-align: center;
+    margin: 20px;
+}
+
+ul{ list-style: none;
+    padding: 0%;
+}
+
+li {
+    border: 1px solid #6b17da; ;
+    padding: 10px;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    color: rgb(162, 45, 230);
+    background-color: rgb(231, 169, 36);
+    padding: 30px;
+    margin: 25px;
+    font-size:medium;
+    font-family: "Miniver", cursive;
+}

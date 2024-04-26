@@ -1,0 +1,66 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+  <title>Random Content</title>
+</head>
+<body>
+
+<div class="container">
+  <!-- Content -->
+  <div class="content">
+    <!-- Refresh button -->
+    <button class="refresh-button" onclick="location.reload()">Refresh</button>
+
+    <div class="flex-container">
+      <div class="random-section">
+        <div class="jobs-container">
+          <h1>Are you looking for an extra source of income?<br>
+              Here are some jobs you can apply.</h1>
+          <p>{{ Jobs }}</p>
+        </div>
+      </div>
+
+      <div class="random-section">
+        <div class="jokes-container">
+          <h1>Random Chuck Norris jokes</h1>
+          <p>{{ jokes }}</p>
+        </div>
+      </div>
+
+      <div class="random-section">
+        <div class="dates-container">
+          <h1>Are you looking for that special significant other in your life?<br>
+              WE GOT YOU!!!<br>
+              Here are some prospective dates.</h1>
+          <p>{{ dates }}</p>
+        </div>
+      </div>
+      <div class="random-section">
+        <div class="songs-container">
+          <h1>Here are some random verses from some of your favorite songs
+          </h1>
+          <p>{{songs}}</p>
+    </div>
+  </div>
+      <div class="random-section">
+            <div class="artist-container">
+              <h1>Artist(s)
+              </h1>
+              <p>{{artist}}</p>
+        </div>
+      </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 solo Website</p>
+  </footer>
+</div>
+
+</body>
+</html>
